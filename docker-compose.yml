@@ -11,7 +11,6 @@ services:
   application-back:
     container_name: application-back
     volumes:
-      - ./secrets/:/run/secrets/:ro
       - ./api:/application/
       - application-api-node_modules:/application/node_modules
     ports:
