@@ -68,3 +68,4 @@ NUXT_PUBLIC_STRAPI_URL=http://localhost:1337
 
 - [Documentation Strapi](https://docs.strapi.io/cms/intro)
 - [Documentation Nuxt 3](https://nuxt.com/docs)
+- [Documentation SEO nuxt](https://nuxt.com/docs/getting-started/seo-meta)
