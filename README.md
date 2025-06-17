@@ -61,3 +61,10 @@ Dans le fichier .env du frontend (/web/.env), changer la variable suivante :
 ```env
 NUXT_PUBLIC_STRAPI_URL=http://localhost:1337
 ```
+
+<!-- Liens -->
+
+## 🔗 Liens utiles
+
+- [Documentation Strapi](https://docs.strapi.io/cms/intro)
+- [Documentation Nuxt 3](https://nuxt.com/docs)
