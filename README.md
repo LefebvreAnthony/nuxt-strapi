@@ -1,4 +1,4 @@
-# Projet Web - Nuxt 3 + Strapi CMS
+# Starter Pack STRAPI CMS + NUXT3
 
 Ce projet repose sur deux applications distinctes mais connectées :
 
