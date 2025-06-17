@@ -35,4 +35,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/eslint',
   ],
+  css: [
+    '@/assets/css/main.css', // Global CSS file
+  ],
 })
