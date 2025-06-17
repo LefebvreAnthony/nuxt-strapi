@@ -1,0 +1,27 @@
+services:
+  application-front:
+    container_name: application-front
+    volumes:
+      - ./web:/application/
+      - application-web-node_modules:/application/node_modules
+    ports:
+      - "3000:3000"
+    networks:
+      - application-network
+  application-back:
+    container_name: application-back
+    volumes:
+      - ./secrets/:/run/secrets/:ro
+      - ./api:/application/
+      - application-api-node_modules:/application/node_modules
+    ports:
+      - 1337:1337
+    networks:
+      - application-network
+
+networks:
+  application-network:
+
+volumes:
+  application-web-node_modules:
+  application-api-node_modules:
