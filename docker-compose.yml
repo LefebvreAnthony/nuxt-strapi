@@ -1,6 +1,8 @@
 services:
   application-front:
     container_name: application-front
+    image: node:22-alpine
+    working_dir: /application
     volumes:
       - ./web:/application/
       - application-web-node_modules:/application/node_modules
@@ -10,6 +12,8 @@ services:
       - application-network
   application-back:
     container_name: application-back
+    image: node:22-alpine
+    working_dir: /application
     volumes:
       - ./api:/application/
       - application-api-node_modules:/application/node_modules
